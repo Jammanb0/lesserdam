@@ -1,0 +1,12 @@
+# 파이썬
+.venv/
+__pycache__/
+*.pyc
+
+# exe 만들 때 생기는 것 (exe는 GitHub Releases에 올린다)
+build/
+dist/
+*.spec
+
+# 개발 중 임시 파일
+scratch/
