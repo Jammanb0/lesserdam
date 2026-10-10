@@ -1,0 +1,345 @@
+{
+  "python": "3.14.7",
+  "packages": [
+    {
+      "name": "img2pdf",
+      "version": "0.6.3",
+      "role": "application-runtime",
+      "requires": [
+        "Pillow",
+        "pikepdf"
+      ],
+      "files": [
+        {
+          "path": "img2pdf/licenses/LICENSE",
+          "sha256": "e3a994d82e644b03a792a930f574002658412f62407f5fee083f2555c5f23118"
+        }
+      ]
+    },
+    {
+      "name": "pikepdf",
+      "version": "10.16.0",
+      "role": "application-runtime",
+      "requires": [
+        "Pillow>=10.0.1",
+        "lxml>=4.8",
+        "packaging",
+        "jsonschema>=4.18; extra == \"pdfa\"",
+        "referencing; extra == \"pdfa\"",
+        "fonttools>=4.40; extra == \"pdfa\""
+      ],
+      "files": [
+        {
+          "path": "pikepdf/licenses/LICENSE.txt",
+          "sha256": "1f256ecad192880510e84ad60474eab7589218784b9a50bc7ceee34c2b91f1d5"
+        },
+        {
+          "path": "pikepdf/licenses/third-party-licenses/CC-BY-4.0-veraPDF.txt",
+          "sha256": "86057e027dad20f02ed574e6bd856fc56539b6fd0b7085925f46384eefa02c00"
+        },
+        {
+          "path": "pikepdf/licenses/third-party-licenses/GCC-exception-3.1.txt",
+          "sha256": "9d6b43ce4d8de0c878bf16b54d8e7a10d9bd42b75178153e3af6a815bdc90f74"
+        },
+        {
+          "path": "pikepdf/licenses/third-party-licenses/GPL-3.0.txt",
+          "sha256": "3972dc9744f6499f0f9b2dbf76696f2ae7ad8af9b23dde66d6af86c9dfb36986"
+        },
+        {
+          "path": "pikepdf/licenses/third-party-licenses/README.md",
+          "sha256": "0be42a401909f54caf44ec78f90fd3b4af0da4aacf1a540d9652d924120fe60b"
+        },
+        {
+          "path": "pikepdf/licenses/third-party-licenses/libjpeg-turbo-README.ijg.txt",
+          "sha256": "75815e3bf6484201a3c3d17a1bbf10f2e8e3237f84df10a2357ea896db2a81d6"
+        },
+        {
+          "path": "pikepdf/licenses/third-party-licenses/libjpeg-turbo.txt",
+          "sha256": "ba6bceebcba0fdd35488477c2cca8c4632ce82c74dbfbc87d886ce6fc4433579"
+        },
+        {
+          "path": "pikepdf/licenses/third-party-licenses/microsoft-visual-cpp-runtime.txt",
+          "sha256": "116b4e8ee0885dbc69828206586d7ecf05abe1bd66aaad26b4db7b22840d5012"
+        },
+        {
+          "path": "pikepdf/licenses/third-party-licenses/openssl.txt",
+          "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+        },
+        {
+          "path": "pikepdf/licenses/third-party-licenses/pdfminer.six.txt",
+          "sha256": "51fff42ed29ec6a162046ebd9bbc755bfc45e86ab7f7284970e36cd7fa94d99f"
+        },
+        {
+          "path": "pikepdf/licenses/third-party-licenses/qpdf.txt",
+          "sha256": "cfc7749b96f63bd31c3c42b5c471bf756814053e847c10f3eb003417bc523d30"
+        },
+        {
+          "path": "pikepdf/licenses/third-party-licenses/sRGB-icc-profile.txt",
+          "sha256": "d796a2cbecdcaa24aec533278d72f12fd29187310fde3dce66d8f23749ba516e"
+        },
+        {
+          "path": "pikepdf/licenses/third-party-licenses/zlib.txt",
+          "sha256": "845efc77857d485d91fb3e0b884aaa929368c717ae8186b66fe1ed2495753243"
+        }
+      ]
+    },
+    {
+      "name": "pillow",
+      "version": "12.3.0",
+      "role": "application-runtime",
+      "requires": [
+        "furo; extra == \"docs\"",
+        "olefile; extra == \"docs\"",
+        "sphinx>=8.2; extra == \"docs\"",
+        "sphinx-autobuild; extra == \"docs\"",
+        "sphinx-copybutton; extra == \"docs\"",
+        "sphinx-inline-tabs; extra == \"docs\"",
+        "sphinxext-opengraph; extra == \"docs\"",
+        "olefile; extra == \"fpx\"",
+        "olefile; extra == \"mic\"",
+        "arro3-compute; extra == \"test-arrow\"",
+        "arro3-core; extra == \"test-arrow\"",
+        "nanoarrow; extra == \"test-arrow\"",
+        "pyarrow; extra == \"test-arrow\"",
+        "coverage>=7.4.2; extra == \"tests\"",
+        "defusedxml; extra == \"tests\"",
+        "markdown2; extra == \"tests\"",
+        "olefile; extra == \"tests\"",
+        "packaging; extra == \"tests\"",
+        "pytest; extra == \"tests\"",
+        "pytest-cov; extra == \"tests\"",
+        "pytest-timeout; extra == \"tests\"",
+        "pytest-xdist; extra == \"tests\"",
+        "setuptools; extra == \"tests\"",
+        "trove-classifiers>=2024.10.12; extra == \"tests\"",
+        "defusedxml; extra == \"xmp\""
+      ],
+      "files": [
+        {
+          "path": "pillow/licenses/LICENSE",
+          "sha256": "4f7866a74802c6326f81faff59a56546b6aec2b10b91973e0e9308de95e79857"
+        }
+      ]
+    },
+    {
+      "name": "pywin32",
+      "version": "312",
+      "role": "application-runtime",
+      "requires": [],
+      "files": [
+        {
+          "path": "pywin32/licenses/adodbapi/license.txt",
+          "sha256": "5ea2f23c7f00c3006bacf267183e816d8d4b6dc95ea57a4ddb0ff81de6d8719e"
+        },
+        {
+          "path": "pywin32/licenses/com/License.txt",
+          "sha256": "fad39c18fc3825fa278db1c86fd52cf88d7c525b3c2fbf7817fa383cbae4d423"
+        },
+        {
+          "path": "pywin32/licenses/com/win32comext/mapi/src/MAPIStubLibrary/LICENSE",
+          "sha256": "1c4cf44d2fb8bf2d10214d6da80cc9e05502824cc4460f35be4c7bcb4cde53da"
+        },
+        {
+          "path": "pywin32/licenses/isapi/README.txt",
+          "sha256": "41383bcc95edb8138d37077ae54bfdcbd2a3b77bf745a8529a9c161146e22303"
+        },
+        {
+          "path": "pywin32/licenses/pythonwin/License.txt",
+          "sha256": "a74d826efb242db087b850348e20abbfd591b51e2081f2048735290913872924"
+        },
+        {
+          "path": "pywin32/licenses/pythonwin/Scintilla/License.txt",
+          "sha256": "57ec79bbeab4fd1cf7460a7ad450d2ab01471810459aeae9e75e4c66b472095f"
+        },
+        {
+          "path": "pywin32/licenses/pythonwin/pywin/idle/LICENSE.txt",
+          "sha256": "a0fa1e7b8a4230055685e796548ac084a6c0eea395294574093bba72efd9191b"
+        },
+        {
+          "path": "pywin32/licenses/win32/License.txt",
+          "sha256": "a74d826efb242db087b850348e20abbfd591b51e2081f2048735290913872924"
+        }
+      ]
+    },
+    {
+      "name": "packaging",
+      "version": "26.3",
+      "role": "application-runtime",
+      "requires": [],
+      "files": [
+        {
+          "path": "packaging/licenses/LICENSE",
+          "sha256": "cad1ef5bd340d73e074ba614d26f7deaca5c7940c3d8c34852e65c4909686c48"
+        },
+        {
+          "path": "packaging/licenses/LICENSE.APACHE",
+          "sha256": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        },
+        {
+          "path": "packaging/licenses/LICENSE.BSD",
+          "sha256": "b70e7e9b742f1cc6f948b34c16aa39ffece94196364bc88ff0d2180f0028fac5"
+        }
+      ]
+    },
+    {
+      "name": "lxml",
+      "version": "6.1.3",
+      "role": "excluded-runtime-dependency",
+      "requires": [
+        "cssselect>=0.7; extra == \"cssselect\"",
+        "html5lib; extra == \"html5\"",
+        "BeautifulSoup4; extra == \"htmlsoup\"",
+        "lxml_html_clean; extra == \"html-clean\""
+      ],
+      "files": [
+        {
+          "path": "lxml/licenses/LICENSE.txt",
+          "sha256": "e7c3ce8d76331b0101cc46790ab43958ea90a364bcf962ed8763d5a818340e69"
+        },
+        {
+          "path": "lxml/licenses/LICENSES.txt",
+          "sha256": "df682c668de65321677b5e4861dca4128a8bad8067f230956e9da3f985b3d398"
+        }
+      ]
+    },
+    {
+      "name": "pyinstaller",
+      "version": "6.22.3",
+      "role": "build-tool",
+      "requires": [
+        "altgraph",
+        "importlib-metadata>=4.6; python_version < '3.10'",
+        "macholib>=1.8; sys_platform == 'darwin'",
+        "packaging>=22.0",
+        "pefile>=2022.5.30; sys_platform == 'win32'",
+        "pyinstaller-hooks-contrib>=2026.7",
+        "pywin32-ctypes>=0.2.1; sys_platform == 'win32'",
+        "setuptools>=42.0.0",
+        "argcomplete; extra == 'completion'",
+        "execnet>=1.5.0; extra == 'hook-testing'",
+        "psutil; extra == 'hook-testing'",
+        "pytest>=2.7.3; extra == 'hook-testing'"
+      ],
+      "files": [
+        {
+          "path": "pyinstaller/licenses/COPYING.txt",
+          "sha256": "0598064c7d2718e38d7914a7d08343b2fa008e3bea9ebba2aa7a6ffa5900dd64"
+        }
+      ]
+    },
+    {
+      "name": "pyinstaller-hooks-contrib",
+      "version": "2026.8",
+      "role": "build-tool",
+      "requires": [
+        "importlib_metadata>=4.6; python_version < \"3.10\"",
+        "packaging>=22.0"
+      ],
+      "files": [
+        {
+          "path": "pyinstaller-hooks-contrib/licenses/LICENSE",
+          "sha256": "91d0baaff00773038e72c0a1fc9d5d2d38706b7a2b9c04f34296608f931b9cd0"
+        }
+      ]
+    },
+    {
+      "name": "altgraph",
+      "version": "0.17.5",
+      "role": "build-tool",
+      "requires": [],
+      "files": [
+        {
+          "path": "altgraph/LICENSE",
+          "sha256": "6c194d6db0c64d45535d10c95142b9b0cda7b7dcc7f1ddee302b3d536f3dbe46"
+        }
+      ]
+    },
+    {
+      "name": "pefile",
+      "version": "2024.8.26",
+      "role": "build-tool",
+      "requires": [],
+      "files": [
+        {
+          "path": "pefile/LICENSE",
+          "sha256": "b44409c067c6da52bfb54bb6624fb11a7b52157c3a13ae1400232f8196e86ad3"
+        }
+      ]
+    },
+    {
+      "name": "pywin32-ctypes",
+      "version": "0.2.3",
+      "role": "build-tool",
+      "requires": [],
+      "files": [
+        {
+          "path": "pywin32-ctypes/LICENSE.txt",
+          "sha256": "dfa83b3e2709adfcdb838d9ad55823ca674abb780e60563d9dd9544ccbf785e9"
+        }
+      ]
+    },
+    {
+      "name": "setuptools",
+      "version": "84.0.0",
+      "role": "build-tool",
+      "requires": [
+        "pytest!=8.1.*,>=6; extra == \"test\"",
+        "virtualenv>=13.0.0; extra == \"test\"",
+        "wheel>=0.44.0; extra == \"test\"",
+        "pip>=19.1; extra == \"test\"",
+        "packaging>=24.2; extra == \"test\"",
+        "jaraco.envs>=2.2; extra == \"test\"",
+        "pytest-xdist>=3; extra == \"test\"",
+        "jaraco.path>=3.7.2; extra == \"test\"",
+        "build[virtualenv]>=1.0.3; extra == \"test\"",
+        "filelock>=3.4.0; extra == \"test\"",
+        "ini2toml[lite]>=0.14; extra == \"test\"",
+        "tomli-w>=1.0.0; extra == \"test\"",
+        "pytest-timeout; extra == \"test\"",
+        "pytest-perf; sys_platform != \"cygwin\" and extra == \"test\"",
+        "jaraco.develop>=7.21; (python_version >= \"3.9\" and sys_platform != \"cygwin\") and extra == \"test\"",
+        "pytest-home>=0.5; extra == \"test\"",
+        "pytest-subprocess; extra == \"test\"",
+        "pyproject-hooks!=1.1; extra == \"test\"",
+        "jaraco.test>=5.5; extra == \"test\"",
+        "sphinx>=3.5; extra == \"doc\"",
+        "jaraco.packaging>=9.3; extra == \"doc\"",
+        "rst.linker>=1.9; extra == \"doc\"",
+        "furo; extra == \"doc\"",
+        "sphinx-lint; extra == \"doc\"",
+        "jaraco.tidelift>=1.4; extra == \"doc\"",
+        "pygments-github-lexers==0.0.5; extra == \"doc\"",
+        "sphinx-favicon; extra == \"doc\"",
+        "sphinx-inline-tabs; extra == \"doc\"",
+        "sphinx-reredirects; extra == \"doc\"",
+        "sphinxcontrib-towncrier; extra == \"doc\"",
+        "sphinx-notfound-page<2,>=1; extra == \"doc\"",
+        "pyproject-hooks!=1.1; extra == \"doc\"",
+        "towncrier<24.7; extra == \"doc\"",
+        "packaging>=24.2; extra == \"core\"",
+        "more_itertools>=8.8; extra == \"core\"",
+        "jaraco.text>=3.7; extra == \"core\"",
+        "importlib_metadata>=6; python_version < \"3.10\" and extra == \"core\"",
+        "tomli>=2.0.1; python_version < \"3.11\" and extra == \"core\"",
+        "wheel>=0.43.0; extra == \"core\"",
+        "jaraco.functools>=4; extra == \"core\"",
+        "more_itertools; extra == \"core\"",
+        "pytest-checkdocs>=2.14; extra == \"check\"",
+        "pytest-ruff>=0.2.1; sys_platform != \"cygwin\" and extra == \"check\"",
+        "ruff>=0.13.0; sys_platform != \"cygwin\" and extra == \"check\"",
+        "pytest-cov; extra == \"cover\"",
+        "pytest-enabler>=3.4; extra == \"enabler\"",
+        "pytest-mypy>=1.0.1; platform_python_implementation != \"PyPy\" and extra == \"type\"",
+        "mypy==1.18.*; extra == \"type\"",
+        "importlib_metadata>=7.0.2; python_version < \"3.10\" and extra == \"type\"",
+        "jaraco.develop>=7.21; sys_platform != \"cygwin\" and extra == \"type\""
+      ],
+      "files": [
+        {
+          "path": "setuptools/licenses/LICENSE",
+          "sha256": "86da0f01aeae46348a3c3d465195dc1ceccde79f79e87769a64b8da04b2a4741"
+        }
+      ]
+    }
+  ]
+}

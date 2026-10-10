@@ -17,6 +17,7 @@ from .convert_tab import ConvertTab
 from .filelist import FileList
 from .folders_tab import FoldersTab
 from .merge_tab import MergeTab
+from .licenses import show_licenses
 
 
 class App(tk.Tk):
@@ -102,6 +103,8 @@ class App(tk.Tk):
         self.status_label = ttk.Label(bottom, textvariable=self.status_var, width=1)
         self.status_label.grid(row=0, column=1, sticky="ew", padx=(10, 0))
         self.stop_btn = ttk.Button(bottom, text="중지", command=self.stop)
+        ttk.Button(bottom, text="오픈소스 고지…", command=lambda: show_licenses(self)).grid(
+            row=0, column=3, padx=(10, 0))
 
     def _tab_list(self):
         return (self.convert_tab, self.merge_tab, self.folders_tab)

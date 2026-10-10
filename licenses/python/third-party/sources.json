@@ -1,0 +1,42 @@
+[
+  {
+    "file": "expat-COPYING.txt",
+    "url": "https://raw.githubusercontent.com/python/cpython/v3.14.7/Modules/expat/COPYING",
+    "sha256": "31b15de82aa19a845156169a17a5488bf597e561b2c318d159ed583139b25e87"
+  },
+  {
+    "file": "xz-COPYING.txt",
+    "url": "https://raw.githubusercontent.com/python/cpython-source-deps/xz-5.2.5/COPYING",
+    "sha256": "bcb02973ef6e87ea73d331b3a80df7748407f17efdb784b61b47e0e610d3bb5c"
+  },
+  {
+    "file": "zlib-ng-LICENSE.md",
+    "url": "https://raw.githubusercontent.com/python/cpython-source-deps/zlib-ng-2.2.4/LICENSE.md",
+    "sha256": "6c9f0d975b41afaa34d22f55bb8986ce69e5cb7ad327cb2b28820cd425edf5ee"
+  },
+  {
+    "file": "mpdecimal-COPYRIGHT.txt",
+    "url": "https://raw.githubusercontent.com/python/cpython-source-deps/mpdecimal-4.0.0/COPYRIGHT.txt",
+    "sha256": "2713324211652ce4a60e6e21e54f9dc3004299e591b0933a352f1a89c5fb53c2"
+  },
+  {
+    "file": "libtommath-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/tcltk/tcl/core-9-0-4/libtommath/LICENSE",
+    "sha256": "2fa64b163659f41965c9815882a8296d3d03ff546b76153e11445f9bdecf955a"
+  },
+  {
+    "file": "zlib-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/madler/zlib/v1.3.2/LICENSE",
+    "sha256": "e32ff4e00d9d94930537635291da39e7e612703334bf6fde8c7f1686fe8a45a2"
+  },
+  {
+    "file": "openssl-LICENSE.txt",
+    "url": "https://raw.githubusercontent.com/openssl/openssl/openssl-3.5.7/LICENSE.txt",
+    "sha256": "7d5450cb2d142651b8afa315b5f238efc805dad827d91ba367d8516bc9d49e7a"
+  },
+  {
+    "file": "openssl-AUTHORS.md",
+    "url": "https://raw.githubusercontent.com/openssl/openssl/openssl-3.5.7/AUTHORS.md",
+    "sha256": "b9f638dfc06b59c2d3b808186c3b30f713805a5db390f5b77b1703ac58acb83e"
+  }
+]
