@@ -29,8 +29,10 @@ img2pdf의 저작권: Copyright (C) 2012-2021 Johannes Schauer Marin Rodrigues. 
 - [img2pdf 0.6.3 소스](https://pypi.org/project/img2pdf/0.6.3/#files)
 - [pikepdf 10.16.0 소스 — MPL 2.0](https://pypi.org/project/pikepdf/10.16.0/#files)
 
-공개 배포 시에는 위 라이브러리의 정확한 소스와, 수정된 라이브러리를 사용해 프로그램을
-다시 만들 수 있는 애플리케이션 코드·빌드 자료의 배포 위치도 함께 제공해야 합니다.
+EXE ZIP과 함께 제공하는 같은 버전의 `*-source.zip`에 위 라이브러리의 정확한 소스와,
+수정된 라이브러리를 사용해 프로그램을 다시 만들 수 있는 앱 소스·아이콘·빌드 도구를 넣습니다.
+소스 ZIP 안의 `app/BUILDING.md`에서 재빌드 방법을, `SOURCE_MANIFEST.json`에서 버전과 해시를
+확인할 수 있습니다. EXE를 재배포할 때 이 소스 제공 경로도 함께 유지해야 합니다.
 
 ## Python 외에 포함되는 코드
 
