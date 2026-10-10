@@ -1,0 +1,8 @@
+-r requirements.txt
+# 2026-10-10 Windows x64 검증 환경. 빌드 도구의 간접 의존성도 고정함.
+pyinstaller==6.22.3
+pyinstaller-hooks-contrib==2026.8
+altgraph==0.17.5
+pefile==2024.8.26
+pywin32-ctypes==0.2.3
+setuptools==84.0.0

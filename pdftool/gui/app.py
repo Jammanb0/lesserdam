@@ -24,6 +24,10 @@ class App(tk.Tk):
     def __init__(self, initial: list[str] | None = None) -> None:
         super().__init__()
         self.title(TITLE)
+        icon_root = Path(getattr(sys, "_MEIPASS", Path(__file__).resolve().parents[2]))
+        icon = icon_root / "assets" / "app-icon-v3.ico"
+        if icon.is_file():
+            self.iconbitmap(default=str(icon))
         self._setup_style()
         self.events: queue.Queue = queue.Queue()
         self.cache = core.DocCache()

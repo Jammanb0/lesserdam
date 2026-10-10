@@ -3,10 +3,15 @@
 __pycache__/
 *.pyc
 
-# exe 만들 때 생기는 것 (exe는 GitHub Releases에 올린다)
+# 빌드 결과
 build/
 dist/
 *.spec
 
 # 개발 중 임시 파일
 scratch/
+
+# 로컬 설정·실제 작업 자료·개인정보가 포함될 수 있는 기록
+.env
+.env.*
+*.log
